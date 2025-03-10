@@ -4,7 +4,7 @@ This script reads an `input.csv` file, publishes each row as a one-time viewable
 
 ## Features
 
-- **CSV input with semicolon delimiter** (e.g., `Name;Durchwahl;User;Passwort;Server`)
+- **CSV input with semicolon delimiter** (e.g., `Name;User;Passwort;Server`)
 - **No password** for secrets: anyone with the link can view it **once**
 - **Single-use** secrets expire after first retrieval (by default)
 
@@ -21,7 +21,7 @@ This script reads an `input.csv` file, publishes each row as a one-time viewable
    pip install requests
 3. **Prepare your CSV**:
    - Name the file `input.csv`.
-   - Use `;` as a delimiter (for example, `Name;Durchwahl;User;Passwort;Server`).
+   - Use `;` as a delimiter (for example, `Name;User;Passwort;Server`).
 
 4. **Run the script**:
    ```bash
